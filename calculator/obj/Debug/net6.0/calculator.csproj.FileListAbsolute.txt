@@ -1,0 +1,15 @@
+C:\Users\murph\OneDrive\Рабочий стол\calculator\calc\calculator\obj\Debug\net6.0\calculator.csproj.AssemblyReference.cache
+C:\Users\murph\OneDrive\Рабочий стол\calculator\calc\calculator\obj\Debug\net6.0\calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\murph\OneDrive\Рабочий стол\calculator\calc\calculator\obj\Debug\net6.0\calculator.AssemblyInfoInputs.cache
+C:\Users\murph\OneDrive\Рабочий стол\calculator\calc\calculator\obj\Debug\net6.0\calculator.AssemblyInfo.cs
+C:\Users\murph\OneDrive\Рабочий стол\calculator\calc\calculator\obj\Debug\net6.0\calculator.csproj.CoreCompileInputs.cache
+C:\Users\murph\OneDrive\Рабочий стол\calculator\calc\calculator\bin\Debug\net6.0\calculator.exe
+C:\Users\murph\OneDrive\Рабочий стол\calculator\calc\calculator\bin\Debug\net6.0\calculator.deps.json
+C:\Users\murph\OneDrive\Рабочий стол\calculator\calc\calculator\bin\Debug\net6.0\calculator.runtimeconfig.json
+C:\Users\murph\OneDrive\Рабочий стол\calculator\calc\calculator\bin\Debug\net6.0\calculator.dll
+C:\Users\murph\OneDrive\Рабочий стол\calculator\calc\calculator\bin\Debug\net6.0\calculator.pdb
+C:\Users\murph\OneDrive\Рабочий стол\calculator\calc\calculator\obj\Debug\net6.0\calculator.dll
+C:\Users\murph\OneDrive\Рабочий стол\calculator\calc\calculator\obj\Debug\net6.0\refint\calculator.dll
+C:\Users\murph\OneDrive\Рабочий стол\calculator\calc\calculator\obj\Debug\net6.0\calculator.pdb
+C:\Users\murph\OneDrive\Рабочий стол\calculator\calc\calculator\obj\Debug\net6.0\calculator.genruntimeconfig.cache
+C:\Users\murph\OneDrive\Рабочий стол\calculator\calc\calculator\obj\Debug\net6.0\ref\calculator.dll
