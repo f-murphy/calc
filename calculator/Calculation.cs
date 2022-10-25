@@ -50,14 +50,14 @@ class Calculation
     {
         string output = string.Empty;
         Stack<char> operStack = new Stack<char>();
-        for (int i = 0; i < input.Length; i++)
+        foreach (int i in input)
         {
-            if (IsDelimeter(input[i]))
+            if (CheckedDelimeter(input(i)))
                 continue;
 
-            if (char.IsDigit(input[i]))
+            if (char.IsDigit(input(i)))
             {
-                while (!IsDelimeter(input[i]) && !IsOperator(input[i]))
+                while (!CheckedDelimeter(input(i)) && !CheckedDelimeter(input(i)))
                 {
                     output += input[i];
                     i++;
@@ -67,7 +67,7 @@ class Calculation
                 i--;
             }
 
-            if (IsOperator(input[i]))
+            if (CheckedOperator(input[i]))
             {
 
                 if (input[i] == '(')
@@ -89,7 +89,7 @@ class Calculation
                 {
                     if (operStack.Count > 0)
 
-                        if (GetPriority(input[i]) <= GetPriority(operStack.Peek()))
+                        if (CheckedPriority(input[i]) <= CheckedPriority(operStack.Peek()))
                             output += operStack.Pop().ToString() + ' ';
 
                     operStack.Push(char.Parse(input[i].ToString()));
@@ -115,7 +115,7 @@ class Calculation
             {
                 string a = string.Empty;
 
-                while (!IsDelimeter(input[i]) && !IsOperator(input[i]))
+                while (!CheckedDelimeter(input[i]) && !CheckedOperator(input[i]))
                 {
                     a += input[i];
                     i++;
@@ -124,7 +124,7 @@ class Calculation
                 temp.Push(double.Parse(a));
                 i--;
             }
-            else if (IsOperator(input[i]))
+            else if (CheckedOperator(input[i]))
             {
                 double a = temp.Pop();
                 double b = temp.Pop();
