@@ -4,12 +4,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        while (true)
+        do
         {
             try
             {
                 Console.Write("Введите выражение: ");
-                Console.WriteLine(Calculation.Calculate(Console.ReadLine()));
+                Console.WriteLine(Calculation.Calc(Console.ReadLine()));
             }
             catch (InvalidOperationException)
             {
@@ -19,10 +19,10 @@ class Program
             {
                 Console.WriteLine("Используйте вместо точки - запятую");
             }
-            catch (DivideByZeroException ex)
+            catch (DivideByZeroException)
             {
                 Console.WriteLine("Делить на ноль нельзя");
             }
-        }
+        } while (true);
     }
 }
