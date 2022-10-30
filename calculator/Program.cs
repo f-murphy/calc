@@ -9,7 +9,8 @@ class Program
             try
             {
                 Console.Write("Введите выражение: ");
-                Console.WriteLine(Calculation.Calc(Console.ReadLine()));
+                Calculation calculation = new Calculation();
+                Console.WriteLine(calculation.Calc(Console.ReadLine()));
             }
             catch (InvalidOperationException)
             {

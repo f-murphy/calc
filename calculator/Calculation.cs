@@ -1,30 +1,22 @@
-using System.Collections.Generic;
-
-
-/*
-    Алгоритм, в котором операнды расположены перед знаком операции.
-    Также с работой алгоритма опускаются все скобки, позволяя высчитать значения, которые
-    находились в них.
-*/
-
+п»їusing System.Collections.Generic;
 
 class Calculation
 {
-    static private bool CheckDelimeter(char c) // если разделитель в виде пробела или равно, то true
+    private bool CheckDelimeter(char c)
     {
         if ((" =".IndexOf(c) != -1))
             return true;
         return false;
     }
 
-    static private bool CheckOperator(char c) // если какой-либо из операторов, то true
+    private bool CheckOperator(char c)
     {
         if (("+-/*^()".IndexOf(c) != -1))
             return true;
         return false;
     }
 
-    static private byte CheckPriority(char s) // приоритет
+    private byte CheckPriority(char s)
     {
         switch (s)
         {
@@ -47,14 +39,14 @@ class Calculation
         }
     }
 
-    static public double Calc(string input)
+    public double Calc(string input)
     {
         string output = RepresPostfixForm(input);
         double result = CalculatePostfixForm(output);
         return result;
     }
 
-    static private string RepresPostfixForm(string input) // получение в постфиксной записи
+    private string RepresPostfixForm(string input)
     {
         string output = string.Empty;
         Stack<char> operStack = new Stack<char>();
@@ -101,10 +93,10 @@ class Calculation
         while (operStack.Count > 0)
             output += operStack.Pop() + " ";
 
-        return output; //постфиксная форма записи
+        return output;
     }
 
-    static private double CalculatePostfixForm(string input) // вычисление постфиксной формы
+    private double CalculatePostfixForm(string input)
     {
         double result = 0;
         Stack<double> temp = new Stack<double>();
@@ -150,6 +142,6 @@ class Calculation
                 temp.Push(result);
             }
         }
-        return temp.Peek(); //return значений из стека
+        return temp.Peek();
     }
 }
