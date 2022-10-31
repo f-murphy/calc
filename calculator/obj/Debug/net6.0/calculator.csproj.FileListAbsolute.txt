@@ -28,3 +28,11 @@ C:\Users\murph\OneDrive\Рабочий стол\calc-main\calculator\bin\Debug\n
 C:\Users\murph\OneDrive\Рабочий стол\calc-main\calculator\bin\Debug\net6.0\calculator.pdb
 C:\Users\murph\OneDrive\Рабочий стол\calc-main\calculator\obj\Debug\net6.0\calculator.genruntimeconfig.cache
 C:\Users\murph\OneDrive\Рабочий стол\calc-main\calculator\obj\Debug\net6.0\ref\calculator.dll
+C:\Users\User\Desktop\calc\calculator\obj\Debug\net6.0\calculator.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\calc\calculator\obj\Debug\net6.0\calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\calc\calculator\obj\Debug\net6.0\calculator.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\calc\calculator\obj\Debug\net6.0\calculator.AssemblyInfo.cs
+C:\Users\User\Desktop\calc\calculator\obj\Debug\net6.0\calculator.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\calc\calculator\obj\Debug\net6.0\calculator.dll
+C:\Users\User\Desktop\calc\calculator\obj\Debug\net6.0\refint\calculator.dll
+C:\Users\User\Desktop\calc\calculator\obj\Debug\net6.0\calculator.pdb
