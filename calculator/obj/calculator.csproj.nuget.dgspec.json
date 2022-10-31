@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\murph\\OneDrive\\Рабочий стол\\calculator\\calculator\\calculator.csproj": {}
+    "C:\\Users\\User\\Desktop\\calc\\calculator\\calculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\murph\\OneDrive\\Рабочий стол\\calculator\\calculator\\calculator.csproj": {
+    "C:\\Users\\User\\Desktop\\calc\\calculator\\calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\murph\\OneDrive\\Рабочий стол\\calculator\\calculator\\calculator.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\calc\\calculator\\calculator.csproj",
         "projectName": "calculator",
-        "projectPath": "C:\\Users\\murph\\OneDrive\\Рабочий стол\\calculator\\calculator\\calculator.csproj",
-        "packagesPath": "C:\\Users\\murph\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\murph\\OneDrive\\Рабочий стол\\calculator\\calculator\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\calc\\calculator\\calculator.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\calc\\calculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\murph\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,14 +39,29 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -55,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

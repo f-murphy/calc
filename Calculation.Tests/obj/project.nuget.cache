@@ -1,16 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "0oFz2uwDabt/uc6c+0fSW3482lC8anjv1fklJ0BB1Q3jwAOV+mdOfx+0EyptpOAwCmS1lpggRGv1WOk4CHDg9Q==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\calc\\calculator\\calculator.csproj",
+  "dgSpecHash": "3BI6lMyiFM4X2uhKF1NJU2VN9F4elG4p2q5OmdvzoSfusbqb9TwvWfuFy70iIiM+kBaL9aiOcOrEcNK/e1qGNA==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\User\\Desktop\\calc\\Calculation.Tests\\Calculation.Tests.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.net.test.sdk\\17.3.2\\microsoft.net.test.sdk.17.3.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.net.test.sdk\\17.1.0\\microsoft.net.test.sdk.17.1.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.3.2\\microsoft.testplatform.objectmodel.17.3.2.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.testplatform.testhost\\17.3.2\\microsoft.testplatform.testhost.17.3.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.1.0\\microsoft.testplatform.objectmodel.17.1.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.testplatform.testhost\\17.1.0\\microsoft.testplatform.testhost.17.1.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
@@ -87,14 +88,33 @@
     "C:\\Users\\User\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\xunit\\2.4.2\\xunit.2.4.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\xunit\\2.4.1\\xunit.2.4.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\xunit.analyzers\\1.0.0\\xunit.analyzers.1.0.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\xunit.assert\\2.4.2\\xunit.assert.2.4.2.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\xunit.core\\2.4.2\\xunit.core.2.4.2.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\xunit.extensibility.core\\2.4.2\\xunit.extensibility.core.2.4.2.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.5\\xunit.runner.visualstudio.2.4.5.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\xunit.analyzers\\0.10.0\\xunit.analyzers.0.10.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\xunit.assert\\2.4.1\\xunit.assert.2.4.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\xunit.core\\2.4.1\\xunit.core.2.4.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Обнаружено понижение версии пакета Microsoft.NET.Test.Sdk с 17.3.2 на 17.1.0. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n Calculation.Tests -> calculator -> Microsoft.NET.Test.Sdk (>= 17.3.2) \r\n Calculation.Tests -> Microsoft.NET.Test.Sdk (>= 17.1.0)",
+      "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Обнаружено понижение версии пакета xunit с 2.4.2 на 2.4.1. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n Calculation.Tests -> calculator -> xunit (>= 2.4.2) \r\n Calculation.Tests -> xunit (>= 2.4.1)",
+      "libraryId": "xunit",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
